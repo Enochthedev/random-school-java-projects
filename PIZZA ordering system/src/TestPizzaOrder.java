@@ -1,13 +1,9 @@
 /**
- * Write a description of interface driver here.
+ *This is a simple inteface for a java based ordering system
+ my first java program
  *
- * @author (your name)
- * @version (a version number or a date)
- *//**
- * Write a description of interface driver here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (toluthedev)
+ * @version (ver 0.1(23/03/2022))
  */
 
 
@@ -27,7 +23,7 @@ public class TestPizzaOrder {
 			System.out.println("Welcome to  the pizza Ordering  system");
 			System.out.println("Please put in your name");
 			String tempName=reader.nextLine();
-			String ownersName=("koyi");
+			String ownersName=("toluthedev");
 		
 
 
@@ -47,7 +43,7 @@ public class TestPizzaOrder {
 					System.out.println("\n" + "How many Toppings do you want: " + "choose 1 to 12 toppings");
 					int tempToppings = reader.nextInt();
 
-					System.out.println("\n" + "Do you want extra cheese for £5 (Y/N)");
+					System.out.println("\n" + "Do you want extra cheese for ï¿½5 (Y/N)");
 					char tempChoice2 = reader.next().charAt(0);
 					
 					Boolean tempHasExtraCheese;
